@@ -12,7 +12,7 @@ export const About = () => {
       <StyledDiv>
         <p>
           Sou um entusiasta da tecnologia e apaixonado por programação.
-          Dedicação e esforço são minhas marcas registr adas, sempre buscando
+          Dedicação e esforço são minhas marcas registradas, sempre buscando
           aprender e evoluir para me tornar um profissional cada vez melhor.
           Tenho experiência com{" "}
           <StyledSpan>

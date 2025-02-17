@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledButton = styled.button`
   position: fixed;
   bottom: 10px;
-  right: 10px;
+  right: 10%;
   display: flex;
   gap: 5px;
   align-items: center;

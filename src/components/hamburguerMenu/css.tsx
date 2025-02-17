@@ -10,10 +10,10 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 92%;
   position: fixed;
-  z-index: 2;
   background-color: #0f172a;
+  z-index: 2;
 
   p {
     padding-left: 100px;
@@ -93,6 +93,7 @@ export const StyledNav = styled.nav`
     background: #1e293b;
     transition: 0.3s ease-in-out;
     border-radius: 0 0 0 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 
     @media (max-width: 450px) {
       width: 100%;

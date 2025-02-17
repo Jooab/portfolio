@@ -57,7 +57,7 @@ export const Name = styled.p`
     font-size: 4rem;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 490px) {
     font-size: 3rem;
   }
 
@@ -84,7 +84,8 @@ export const Dev = styled.p`
     font-size: 1.5rem;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 490px) {
+    padding-bottom: 30px;
     font-size: 1.3rem;
   }
 `;
