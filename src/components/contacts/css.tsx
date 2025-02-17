@@ -32,7 +32,7 @@ export const StyledAside = styled.aside`
 
   @media (max-width: 560px) {
     padding: 0 0 0 15px;
-    top: 70px;
+    top: 100px;
     height: 150px;
     display: flex;
     justify-content: center;

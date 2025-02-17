@@ -10,10 +10,11 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 92%;
+  width: 100%;
   position: fixed;
   background-color: #0f172a;
-  z-index: 2;
+  z-index: 1;
+  padding: 15px;
 
   p {
     padding-left: 100px;
@@ -49,6 +50,7 @@ export const StyledUl = styled.ul`
   gap: 20px;
   padding-right: 50px;
   flex-direction: column;
+  padding: 35px 45px;
 
   li {
     cursor: pointer;
@@ -93,7 +95,6 @@ export const StyledNav = styled.nav`
     background: #1e293b;
     transition: 0.3s ease-in-out;
     border-radius: 0 0 0 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 
     @media (max-width: 450px) {
       width: 100%;
