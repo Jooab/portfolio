@@ -7,7 +7,7 @@ export const StyledSection = styled.section`
   justify-content: center;
   padding: 80px 50px 50px;
   gap: 30px;
-  text-align: justify;
+  text-align: center;
 
   h1 {
     padding-left: 50px;
@@ -47,7 +47,6 @@ export const StyledLi = styled.li`
   transition: 0.3s ease-in-out;
   border: 1px solid #374151;
   border-radius: 10px;
-  
 
   &:hover {
     transform: scale(1.05);
@@ -135,22 +134,17 @@ export const Technologies = styled.ul`
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  
+
   @media (max-width: 490px) {
     top: 40px;
   }
-  
 
   li {
     font-size: 1.7rem;
     color: #a1b4f0;
 
     @media (max-width: 610px) {
-    font-size: 1.2rem;
+      font-size: 1.2rem;
+    }
   }
-  }
-  
-  
-
-  
 `;
