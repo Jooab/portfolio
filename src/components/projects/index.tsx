@@ -5,10 +5,13 @@ import {
   LiInfo,
   GoToProject,
   GoToRepo,
+  Technologies
 } from "./css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FaGitAlt } from "react-icons/fa";
+import { SiReact, SiStyledcomponents, SiReactrouter, SiVite, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 import { useContext } from "react";
 import { InViewContext } from "../../contexts/inViewContext";
 
@@ -17,7 +20,7 @@ export const Projects = () => {
 
   return (
     <StyledSection id="projects" ref={projectsRef}>
-      <h1>Meus Projetos</h1>
+      <h1 data-aos="fade-right">Meus Projetos</h1>
 
       <StyledUl>
         <StyledLi data-aos="fade-right">
@@ -37,6 +40,23 @@ export const Projects = () => {
             >
               <FontAwesomeIcon icon={faGithub} />
             </GoToRepo>
+            <Technologies>
+              <li>
+                <SiReact />
+              </li>
+              <li>
+                <SiStyledcomponents />
+              </li>
+              <li>
+                <SiReactrouter />
+              </li>
+              <li>
+                <SiVite />
+              </li>
+              <li>
+                <FaGitAlt />
+              </li>
+            </Technologies>
           </LiInfo>
         </StyledLi>
         <StyledLi data-aos="fade-left">
@@ -56,6 +76,21 @@ export const Projects = () => {
             >
               <FontAwesomeIcon icon={faGithub} />
             </GoToRepo>
+            <Technologies>
+              <li>
+                <SiReact />
+              </li>
+              <li>
+                <SiStyledcomponents />
+              </li>
+              
+              <li>
+                <SiVite />
+              </li>
+              <li>
+                <FaGitAlt />
+              </li>
+            </Technologies>
           </LiInfo>
         </StyledLi>
         <StyledLi data-aos="fade-right">
@@ -75,6 +110,20 @@ export const Projects = () => {
             >
               <FontAwesomeIcon icon={faGithub} />
             </GoToRepo>
+            <Technologies>
+              <li>
+                <SiHtml5 />
+              </li>
+              <li>
+                <SiCss3 />
+              </li>
+              <li>
+                <SiJavascript />
+              </li>
+              <li>
+                <FaGitAlt />
+              </li>
+            </Technologies>
           </LiInfo>
         </StyledLi>
         <StyledLi data-aos="fade-left">
@@ -94,6 +143,21 @@ export const Projects = () => {
             >
               <FontAwesomeIcon icon={faGithub} />
             </GoToRepo>
+
+            <Technologies>
+              <li>
+                <SiHtml5 />
+              </li>
+              <li>
+                <SiCss3 />
+              </li>
+              <li>
+                <SiJavascript />
+              </li>
+              <li>
+                <FaGitAlt />
+              </li>
+            </Technologies>
           </LiInfo>
         </StyledLi>
       </StyledUl>

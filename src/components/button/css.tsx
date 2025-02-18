@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-  position: absolute;
-  bottom: 80px;
-  right: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 80px;
   transform: translateX(50%);
   display: flex;
   gap: 5px;
@@ -16,6 +16,12 @@ export const StyledButton = styled.button`
   color: #fff;
   background-color: #597be5;
   font-weight: 600;
+
+  @media (max-width: 700px) {
+    padding: 8px 13px;
+    font-size: 0.8rem;
+    right: 60px;
+  }
 
   &:hover {
     transform: scale(1.05) translateX(50%);

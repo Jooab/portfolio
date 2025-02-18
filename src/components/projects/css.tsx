@@ -5,7 +5,8 @@ export const StyledSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px 50px 50px;
+  padding: 80px 50px 50px;
+  gap: 30px;
 
   h1 {
     padding-left: 50px;
@@ -60,12 +61,12 @@ export const StyledLi = styled.li`
 export const LiInfo = styled.div`
   border-radius: 0 0 10px 10px;
   background-color: #1e293b;
-  height: 35%;
+  height: 50%;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 70px 50px 40px;
   gap: 10px;
 
   h2 {
@@ -86,7 +87,7 @@ export const GoToProject = styled.a`
   top: 0;
   right: 20px;
   color: #a1b4f0;
-  font-size: 20px;
+  font-size: 2rem;
 
   &:hover {
     color: #597be5;
@@ -103,10 +104,25 @@ export const GoToRepo = styled.a`
   top: 0;
   left: 20px;
   color: #a1b4f0;
-  font-size: 20px;
+  font-size: 2rem;
 
   &:hover {
     color: #597be5;
     transform: scale(1.05);
+  }
+`;
+
+export const Technologies = styled.ul`
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  padding-top: 10px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  li {
+    font-size: 1.7rem;
+    color: #a1b4f0;
   }
 `;

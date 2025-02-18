@@ -4,9 +4,9 @@ export const StyledSection = styled.section`
   display: flex;
   place-items: center;
   flex-direction: column;
-  padding: 50px 100px 120px 150px;
+  padding: 120px 100px 120px 150px;
   text-align: justify;
-  gap: 25px;
+  gap: 40px;
 
   @media (max-width: 630px) {
     padding: 50px 50px 120px 120px;
