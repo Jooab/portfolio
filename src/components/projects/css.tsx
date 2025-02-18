@@ -7,6 +7,7 @@ export const StyledSection = styled.section`
   justify-content: center;
   padding: 80px 50px 50px;
   gap: 30px;
+  text-align: justify;
 
   h1 {
     padding-left: 50px;
@@ -42,9 +43,11 @@ export const StyledUl = styled.ul`
 export const StyledLi = styled.li`
   max-width: 500px;
   display: flex;
-  max-height: 400px;
   flex-direction: column;
   transition: 0.3s ease-in-out;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  
 
   &:hover {
     transform: scale(1.05);
@@ -54,27 +57,31 @@ export const StyledLi = styled.li`
     width: 100%;
     height: 50%;
     border-radius: 10px 10px 0 0;
-    object-fit: cover;
+    object-fit: contain;
   }
 `;
 
 export const LiInfo = styled.div`
   border-radius: 0 0 10px 10px;
   background-color: #1e293b;
-  height: 50%;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 70px 50px 40px;
   gap: 10px;
+  flex: 1;
+
+  @media (max-width: 490px) {
+    padding: 100px 30px 30px;
+  }
 
   h2 {
-    margin: 0;
+    font-size: 1.5rem;
   }
 
   p {
-    margin: 0;
+    font-size: 1rem;
   }
 `;
 
@@ -88,6 +95,10 @@ export const GoToProject = styled.a`
   right: 20px;
   color: #a1b4f0;
   font-size: 2rem;
+
+  @media (max-width: 610px) {
+    font-size: 1.5rem;
+  }
 
   &:hover {
     color: #597be5;
@@ -106,6 +117,10 @@ export const GoToRepo = styled.a`
   color: #a1b4f0;
   font-size: 2rem;
 
+  @media (max-width: 610px) {
+    font-size: 1.5rem;
+  }
+
   &:hover {
     color: #597be5;
     transform: scale(1.05);
@@ -120,9 +135,22 @@ export const Technologies = styled.ul`
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  
+  @media (max-width: 490px) {
+    top: 40px;
+  }
+  
 
   li {
     font-size: 1.7rem;
     color: #a1b4f0;
+
+    @media (max-width: 610px) {
+    font-size: 1.2rem;
   }
+  }
+  
+  
+
+  
 `;
