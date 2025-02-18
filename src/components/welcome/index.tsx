@@ -1,8 +1,6 @@
-import { Section, Hello, Name, Dev, WelcomeSection, ArrowDown } from "./css";
+import { Section, Hello, Name, Dev, WelcomeSection } from "./css";
 import { useContext } from "react";
 import { InViewContext } from "../../contexts/inViewContext";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 export const Welcome = () => {
   const { beginRef } = useContext(InViewContext);
@@ -15,9 +13,6 @@ export const Welcome = () => {
         <Dev>Desenvolvedor Frontend</Dev>
       </WelcomeSection>
 
-      <ArrowDown>
-        <FontAwesomeIcon icon={faCircleDown} />
-      </ArrowDown>
     </Section>
   );
 };

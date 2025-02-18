@@ -26,6 +26,7 @@ a {
 }
 
 body {
+  width: 100vw;
   margin: 0;
   display: flex;
   place-items: center;

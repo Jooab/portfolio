@@ -41,7 +41,8 @@ export const HamburgerMenu = () => {
       <StyledDiv className="menu-icon" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </StyledDiv>
-      <StyledNav className={`nav-menu ${isOpen ? "active" : ""}`}>
+      {isOpen && (
+        <StyledNav >
         <StyledUl>
           <li
             onClick={() => scrollToSection("begin")}
@@ -73,6 +74,7 @@ export const HamburgerMenu = () => {
           </li>
         </StyledUl>
       </StyledNav>
+      )}
     </StyledHeader>
   );
 };

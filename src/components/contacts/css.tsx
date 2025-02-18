@@ -32,18 +32,23 @@ export const StyledAside = styled.aside`
 
   @media (max-width: 560px) {
     padding: 0 0 0 15px;
-    top: 100px;
-    height: 150px;
+    top: 60%;
+    right: 0;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    flex-direction: column;
     box-shadow: none;
 
     ul {
+      display: flex;
       gap: 15px;
     }
+  }
+
+  @media (max-width: 360px) {
+    top: 65%;
   }
 }
 `;

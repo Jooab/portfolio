@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { keyframes } from "styled-components";
 
 export const Section = styled.section`
   display: flex;
@@ -87,34 +86,5 @@ export const Dev = styled.p`
   @media (max-width: 490px) {
     padding-bottom: 30px;
     font-size: 1.3rem;
-  }
-`;
-
-const bounce = keyframes`
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-10px);
-  }
-  60% {
-    transform: translateY(-5px);
-  }
-`;
-
-export const ArrowDown = styled.div`
-  display: none;
-
-  @media (max-width: 900px) {
-    display: block;
-    transform: rotate(-45deg);
-    margin-top: 20px;
-    animation: ${bounce} 1.5s infinite;
-    position: absolute;
-    bottom: 20px;
-
-    svg {
-      font-size: 35px;
-    }
   }
 `;
