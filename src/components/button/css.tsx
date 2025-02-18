@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+  position: absolute;
+  bottom: 80px;
+  right: 50%;
+  transform: translateX(50%);
   display: flex;
   gap: 5px;
   align-items: center;
@@ -17,6 +18,6 @@ export const StyledButton = styled.button`
   font-weight: 600;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) translateX(50%);
   }
 `;

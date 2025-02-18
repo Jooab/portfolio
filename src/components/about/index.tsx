@@ -22,9 +22,9 @@ export const About = () => {
           <StyledSpan>TypeScript e Jest</StyledSpan>, sempre criando interfaces
           modernas, responsivas e intuitivas. <br />
           Além disso, estou sempre explorando novas tecnologias e boas práticas
-          para desenvolver soluções eficientes. Atualme nte, estou em bus ca de
+          para desenvolver soluções eficientes. Atualmente, estou em busca de
           uma oportunidade na área de desenvolvimento frontend para aplicar meus
-          conh ecimentos, crescer profissionalmente e contribu ir com projetos
+          conhecimentos, crescer profissionalmente e contribuir com projetos
           inovadores. Acredito no poder da tecnologia para transformar ideias em
           realidade e estou pronto para enfrentar novos desafios!
         </p>

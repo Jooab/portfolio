@@ -1,6 +1,7 @@
 import { Section, Hello, Name, Dev, WelcomeSection } from "./css";
 import { useContext } from "react";
 import { InViewContext } from "../../contexts/inViewContext";
+import { Button } from "../button";
 
 export const Welcome = () => {
   const { beginRef } = useContext(InViewContext);
@@ -11,6 +12,7 @@ export const Welcome = () => {
         <Hello>Olá, eu sou</Hello>
         <Name>Joab Prates</Name>
         <Dev>Desenvolvedor Frontend</Dev>
+        <Button />
       </WelcomeSection>
 
     </Section>
