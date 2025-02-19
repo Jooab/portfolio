@@ -85,6 +85,6 @@ export const Dev = styled.p`
 
   @media (max-width: 490px) {
     padding-bottom: 30px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 `;

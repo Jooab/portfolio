@@ -12,7 +12,6 @@ export const Welcome = () => {
         <Hello>Olá, eu sou</Hello>
         <Name>Joab Prates</Name>
         <Dev>Desenvolvedor Frontend</Dev>
-        
       </WelcomeSection>
 
     </Section>

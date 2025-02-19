@@ -12,7 +12,7 @@ export const InViewProvider = ({ children }: { children: ReactNode }) => {
     threshold: 0.3,
   });
   const { ref: projectsRef, inView: projectsInView } = useInView({
-    threshold: 0.3,
+    threshold: 0.1,
   });
 
   useEffect(() => {
